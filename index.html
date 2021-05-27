@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NguyenVoNgoc</title>
+    <style>
+        button
+        {
+            color:green;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 500px;">
+        <h1>BMI</h1>
+        <tr>
+        <td>Weight(m)</td>
+        <td>Height(kg)</td>
+        </tr>
+        <tr>
+            <td><input type="number" id="weight" value=""></td>
+            <td><input type="number" id="height" value=""></td>
+            <td><button onclick="result()">CALCULATE</button></td>
+        </tr>
+        <tr>
+        <td><h3 id="result"></h3></td>
+        </tr>
+        <td><h3 id="notification"></h3></td>
+        </tr>
+    </table>
+    <table style="width: 500px;">
+        <h1>TIỀN ĐIỆN</h1>
+            <tr>Số điện (kw)</tr>
+            <tr>
+                <td><input type="number" id="money" value=""></td>
+                <td><button onclick="elc()">CALCULATE</button></td>
+            </tr>
+            <tr>
+                <td><h3 id="cmt"></h3></td>
+            </tr>
+    </table>
+    <script src="my.js"></script>
+</body>
+</html>
